@@ -1,0 +1,16 @@
+{
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md"
+      ]
+    }
+  },
+  "packages": [
+    "core_microservices/*",
+    "shared/*",
+    "core",
+    "cli"
+  ],
+  "version": "independent"
+}
